@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Theme file code.
+ */
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function bootstrap_react_page_attachments_alter(array &$attachments) {
+  // Use the dev library if we're developing locally.
+  if (in_array('bootstrap_react/react_app', $attachments['#attached']['library']) && file_exists(__DIR__ . '/js/dist_dev')) {
+    $index = array_search('bootstrap_react/react_app', $attachments['#attached']['library']);
+    $attachments['#attached']['library'][$index] = 'bootstrap_react/react_app_dev';
+  }
+}

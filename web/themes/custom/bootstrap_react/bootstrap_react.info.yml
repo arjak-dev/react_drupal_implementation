@@ -1,0 +1,7 @@
+name: Bootstrap React
+description: This theme is the blend of Bootstrap5 and ReactJS
+type: theme
+core_version_requirement: ^9 || ^10
+base theme: bootstrap5
+libraries:
+  - bootstrap_react/react_app

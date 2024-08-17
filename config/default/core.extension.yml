@@ -3,6 +3,7 @@ _core:
 module:
   admin_toolbar: 0
   admin_toolbar_tools: 0
+  ai_content_creator: 0
   announcements_feed: 0
   automated_cron: 0
   big_pipe: 0
@@ -37,6 +38,8 @@ module:
   path: 0
   path_alias: 0
   search: 0
+  search_api: 0
+  search_api_solr: 0
   shortcut: 0
   standard: 0
   system: 0
@@ -53,4 +56,5 @@ theme:
   adminimal_theme: 0
   stable9: 0
   bootstrap5: 0
+  bootstrap_react: 0
 profile: standard

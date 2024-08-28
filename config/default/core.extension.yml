@@ -15,8 +15,12 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  csv_serialization: 0
   datetime: 0
   dblog: 0
+  devel: 0
+  devel_generate: 0
+  drupal_migration: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -31,15 +35,23 @@ module:
   locale: 0
   menu_link_content: 0
   menu_ui: 0
+  migrate: 0
+  migrate_plus: 0
+  migrate_source_csv: 0
+  migrate_tools: 0
   mysql: 0
   node: 0
   options: 0
   page_cache: 0
   path: 0
   path_alias: 0
+  rest: 0
   search: 0
   search_api: 0
+  search_api_db: 0
+  search_api_db_defaults: 0
   search_api_solr: 0
+  serialization: 0
   shortcut: 0
   standard: 0
   system: 0
@@ -47,6 +59,8 @@ module:
   text: 0
   toolbar: 0
   user: 0
+  user_provisioning: 0
+  views_data_export: 0
   views_ui: 0
   views: 10
 theme:

@@ -1,0 +1,9 @@
+name: Drupal Migration
+description: This module is the show case of different migraiton in drupal.
+core_version_requirement: ^9 || ^10
+type: module
+dependencies:
+  - drupal:migrate
+  - drupal:migrate_source_csv
+  - drupal:migrate_plus
+  - drupal:migrate_tools

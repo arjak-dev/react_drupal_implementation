@@ -1,0 +1,26 @@
+lancode: en
+status: true
+id: user_data_migration
+label: User data migration.
+source:
+  plugin: csv
+  path: ./source/user-data-export.csv
+  ids:
+    - name
+  fields:
+    - name: name
+      label: User Name
+    - name: Email
+      label: Picture
+    - name: Roles
+      label: User Roles
+    - name: Timezone
+      label: User timezone
+process:
+  name: name
+destination:
+  plugin: entity:user
+dependencies:
+  enforced:
+    module:
+      - drupal_migration

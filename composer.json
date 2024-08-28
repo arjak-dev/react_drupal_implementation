@@ -23,8 +23,14 @@
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
+        "drupal/devel": "^5.3",
+        "drupal/migrate_plus": "^6.0",
+        "drupal/migrate_source_csv": "^3.6",
+        "drupal/migrate_tools": "^6.0",
         "drupal/search_api": "^1.35",
         "drupal/search_api_solr": "^4.3",
+        "drupal/user_provisioning": "^1.24",
+        "drupal/views_data_export": "^1.4",
         "drush/drush": "^13.0"
     },
     "conflict": {

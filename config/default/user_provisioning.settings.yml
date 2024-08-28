@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: kH8pUb24W07Zos5UPQwedmtuxIYrhDqBLOAnbYhZMqc
+mo_user_prov_scim_client_enable_api_integration: true
+mo_user_provisioning_scim_server_base_url: ''
+mo_user_provisioning_scim_server_bearer_token: ''
+mo_user_provisioning_create_user: false
+mo_audits_and_logs_no_of_rows: 10
+mo_user_provisioning_app_name: ''
+event_based_provisioning: false
+mo_user_prov_authorization_success: false
